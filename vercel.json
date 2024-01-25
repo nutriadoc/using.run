@@ -1,5 +1,8 @@
 {
   "version": 2,
+  "builds": [
+    { "src": "packages/using_host", "use": "@vercel/node" }
+  ],
   "routes": [
     {
       "src": "/(.*)",
