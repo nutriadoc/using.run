@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>using.run</title>
+</head>
+<body>
+<script src="http://localhost:8082/dist/using.run.umd.js">
+  console.debug("hey there")
+</script>
+<script>
+using("nutria").then(function (nutria) {
+    console.debug("nutria", Nutria)
+})
+</script>
+</body>
+</html>
